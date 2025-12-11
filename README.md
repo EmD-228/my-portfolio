@@ -10,6 +10,7 @@ Portfolio moderne et interactif développé avec Vue.js 3, Tailwind CSS et syst�
 - ⚡ **Performance optimisée** - Vite pour un build rapide
 - 🔄 **Composants réutilisables** - Architecture modulaire et maintenable
 - 📊 **Données centralisées** - Toutes les informations dans un fichier JSON
+- 🚀 **Déploiement automatique** - GitHub Actions déploie sur GitHub Pages à chaque push
 
 ## 🚀 Installation
 
@@ -89,6 +90,20 @@ Toutes les données sont centralisées dans `src/data/portfolio.json`. Modifiez 
 - 💼 LinkedIn : [linkedin.com/in/emmanuel-kouassi](https://linkedin.com/in/emmanuel-kouassi)
 - 🐙 GitHub : [github.com/emmanuel-kouassi](https://github.com/emmanuel-kouassi)
 - 📍 Localisation : Lomé, Togo
+
+## 🚀 Déploiement
+
+Le projet est configuré avec GitHub Actions pour un déploiement automatique sur GitHub Pages.
+
+### Activation
+
+1. Allez dans `Settings` > `Pages` de votre repository
+2. Sélectionnez `GitHub Actions` comme source
+3. Le workflow se déclenchera automatiquement à chaque push sur `main`
+
+Votre site sera disponible à : `https://emd-228.github.io/my-portfolio/`
+
+Pour plus de détails, consultez [.github/DEPLOYMENT.md](.github/DEPLOYMENT.md)
 
 ## 📄 Licence
 
