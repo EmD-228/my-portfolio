@@ -1,0 +1,355 @@
+{
+  "personal": {
+    "name": "Kokou DENYO",
+    "title": {
+      "fr": "Développeur Mobile (Flutter) & Designer Produit",
+      "en": "Mobile App Developer (Flutter) & Product Designer"
+    },
+    "location": {
+      "fr": "📍 Lomé, Togo | 🌍 Travail à distance",
+      "en": "📍 Lomé, Togo | 🌍 Remote Work"
+    },
+    "email": "emmanuel.kouassi@email.com",
+    "linkedin": "https://linkedin.com/in/emmanuel-kouassi",
+    "github": "https://github.com/emmanuel-kouassi",
+    "experience": {
+      "fr": "5+ années d'expérience en développement mobile",
+      "en": "5+ years of experience in mobile development"
+    }
+  },
+  "hero": {
+    "title": {
+      "fr": "Code\nMeets\nDesign",
+      "en": "Code\nMeets\nDesign"
+    },
+    "subtitle": {
+      "fr": "Mobile App Developer (Flutter) / UI/UX Designer",
+      "en": "Mobile App Developer (Flutter) / UI/UX Designer"
+    },
+    "badges": {
+      "fr": ["Disponible pour opportunités", "Remote | Full-time", "5+ années d'expérience", "Flutter | UI/UX Design"],
+      "en": ["Open to opportunities", "Remote | Full-time", "5+ years experience", "Flutter | UI/UX Design"]
+    }
+  },
+  "about": {
+    "title": {
+      "fr": "<span class='text-primary-gold'>Kokou DENYO</span> est un <span class='text-primary-gold'>développeur mobile Flutter</span> et <span class='text-primary-gold'>designer UI/UX</span> — créant des applications performantes qui allient code et design.",
+      "en": "<span class='text-primary-gold'>Kokou DENYO</span> is a <span class='text-primary-gold'>Flutter mobile developer</span> and <span class='text-primary-gold'>UI/UX designer</span> — creating high-performance applications that combine code and design."
+    },
+    "description": {
+      "fr": "Spécialisé dans le développement d'applications mobiles scalables pour entreprises, je transforme des concepts en solutions performantes qui stimulent la croissance et améliorent l'engagement utilisateur à travers diverses industries.",
+      "en": "Specialized in developing scalable mobile applications for enterprises, I transform concepts into high-performance solutions that drive growth and enhance user engagement across diverse industries."
+    },
+    "skills": {
+      "fr": ["Flutter Expert", "UI/UX Designer", "5+ Années"],
+      "en": ["Flutter Expert", "UI/UX Designer", "5+ Years"]
+    },
+    "cta": {
+      "fr": "Voir mes projets",
+      "en": "View my projects"
+    }
+  },
+  "projects": {
+    "title": {
+      "fr": "Mes Projets",
+      "en": "My Projects"
+    },
+    "items": [
+      {
+        "id": "01",
+        "title": "EDOMATCH",
+        "description": {
+          "fr": "Refonte complète Jobseeker + Onboarding + Analytics",
+          "en": "Complete Jobseeker redesign + Onboarding + Analytics"
+        }
+      },
+      {
+        "id": "02",
+        "title": "DRESSLIKE",
+        "description": {
+          "fr": "Application V2 + Moteur IA Smart Swap + 15K+ utilisateurs",
+          "en": "V2 Application + AI Smart Swap Engine + 15K+ users"
+        }
+      },
+      {
+        "id": "03",
+        "title": "KLUMER",
+        "description": {
+          "fr": "Plateforme événementielle complète + 10K+ organisateurs",
+          "en": "Complete event platform + 10K+ organizers"
+        }
+      },
+      {
+        "id": "04",
+        "title": "VR-AI Projects",
+        "description": {
+          "fr": "Refontes web : Growl, AfFund, Studio, Portfolio",
+          "en": "Web redesigns: Growl, AfFund, Studio, Portfolio"
+        }
+      },
+      {
+        "id": "05",
+        "title": "LaTribu",
+        "description": {
+          "fr": "Plateforme e-learning mobile + web",
+          "en": "E-learning platform mobile + web"
+        }
+      }
+    ]
+  },
+  "process": {
+    "subtitle": {
+      "fr": "Mon Processus",
+      "en": "My Workflow"
+    },
+    "title": {
+      "fr": "De la <span class='text-primary-gold'>conception à l'exécution</span>, chaque étape est conçue pour transformer des idées en applications <span class='text-primary-gold'>scalables et performantes</span>.",
+      "en": "From <span class='text-primary-gold'>concept to execution</span>, each step is designed to transform ideas into <span class='text-primary-gold'>scalable and high-performance</span> applications."
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title": {
+          "fr": "Concevoir",
+          "en": "Design"
+        },
+        "description": {
+          "fr": "Analyse des besoins utilisateur, wireframing et prototypage dans Figma—création d'une identité visuelle cohérente et intuitive.",
+          "en": "User needs analysis, wireframing and prototyping in Figma—creating a coherent and intuitive visual identity."
+        }
+      },
+      {
+        "number": "02",
+        "title": {
+          "fr": "Développer",
+          "en": "Develop"
+        },
+        "description": {
+          "fr": "Transformation des designs en code Flutter—architecture propre, state management optimisé et intégration des APIs.",
+          "en": "Transforming designs into Flutter code—clean architecture, optimized state management and API integration."
+        }
+      },
+      {
+        "number": "03",
+        "title": {
+          "fr": "Intégrer",
+          "en": "Integrate"
+        },
+        "description": {
+          "fr": "Connexion avec Firebase, APIs REST, Google Maps, ML Kit—implémentation des fonctionnalités backend et services tiers.",
+          "en": "Connection with Firebase, REST APIs, Google Maps, ML Kit—implementation of backend features and third-party services."
+        }
+      },
+      {
+        "number": "04",
+        "title": {
+          "fr": "Livrer",
+          "en": "Deliver"
+        },
+        "description": {
+          "fr": "Tests, optimisation des performances, déploiement sur Play Store et App Store—suivi analytics et itérations continues.",
+          "en": "Testing, performance optimization, deployment on Play Store and App Store—analytics tracking and continuous iterations."
+        }
+      }
+    ],
+    "footer": {
+      "fr": "Du wireframing dans Figma au développement Flutter, en passant par l'intégration Firebase et les tests—le résultat n'est pas juste une app, c'est une expérience utilisateur complète.",
+      "en": "From wireframing in Figma to Flutter development, through Firebase integration and testing—the result isn't just an app, it's a complete user experience."
+    }
+  },
+  "achievements": {
+    "subtitle": {
+      "fr": "Réalisations Clés",
+      "en": "Key Achievements"
+    },
+    "experience": {
+      "fr": "5+ Années d'expérience",
+      "en": "5+ Years of experience"
+    },
+    "title": {
+      "fr": "Impact &\nRésultats.",
+      "en": "Impact &\nResults."
+    },
+    "items": [
+      {
+        "quote": {
+          "fr": "15,000+ utilisateurs actifs sur DRESSLIKE avec réduction de 40% du coût d'acquisition",
+          "en": "15,000+ active users on DRESSLIKE with 40% reduction in acquisition cost"
+        },
+        "author": {
+          "fr": "DRESSLIKE - Application Mobile",
+          "en": "DRESSLIKE - Mobile Application"
+        }
+      },
+      {
+        "quote": {
+          "fr": "10,000+ organisateurs d'événements utilisent la plateforme KLUMER quotidiennement",
+          "en": "10,000+ event organizers use the KLUMER platform daily"
+        },
+        "author": {
+          "fr": "KLUMER - Plateforme Événementielle",
+          "en": "KLUMER - Event Platform"
+        }
+      },
+      {
+        "quote": {
+          "fr": "Refonte complète de 5+ applications avec transformation totale de l'UI/UX",
+          "en": "Complete redesign of 5+ applications with total UI/UX transformation"
+        },
+        "author": {
+          "fr": "EDOMATCH & Autres Projets",
+          "en": "EDOMATCH & Other Projects"
+        }
+      },
+      {
+        "quote": {
+          "fr": "Développement du moteur de recommandation IA Smart Swap intégré avec Gemini API",
+          "en": "Development of AI Smart Swap recommendation engine integrated with Gemini API"
+        },
+        "author": {
+          "fr": "Innovation Technique",
+          "en": "Technical Innovation"
+        }
+      }
+    ],
+    "cta": {
+      "fr": "Voir mes projets",
+      "en": "View my projects"
+    }
+  },
+  "footer": {
+    "title": {
+      "fr": "MOBILE DEVELOPER",
+      "en": "MOBILE DEVELOPER"
+    },
+    "navigation": {
+      "title": {
+        "fr": "Navigation",
+        "en": "Navigation"
+      },
+      "items": [
+        {
+          "label": {
+            "fr": "Accueil",
+            "en": "Home"
+          },
+          "href": "#home"
+        },
+        {
+          "label": {
+            "fr": "À propos",
+            "en": "About"
+          },
+          "href": "#about"
+        },
+        {
+          "label": {
+            "fr": "Projets",
+            "en": "Works"
+          },
+          "href": "#works"
+        },
+        {
+          "label": {
+            "fr": "Contact",
+            "en": "Contact"
+          },
+          "href": "#contact"
+        }
+      ]
+    },
+    "skills": {
+      "title": {
+        "fr": "Compétences",
+        "en": "Skills"
+      },
+      "items": {
+        "fr": ["Flutter (Expert)", "UI/UX Design", "Firebase", "React / Next.js", "Vue.js"],
+        "en": ["Flutter (Expert)", "UI/UX Design", "Firebase", "React / Next.js", "Vue.js"]
+      }
+    },
+    "contact": {
+      "title": {
+        "fr": "Contact",
+        "en": "Contact"
+      },
+      "items": [
+        {
+          "label": {
+            "fr": "📧 Email",
+            "en": "📧 Email"
+          },
+          "href": "mailto:emmanuel.kouassi@email.com"
+        },
+        {
+          "label": {
+            "fr": "💼 LinkedIn",
+            "en": "💼 LinkedIn"
+          },
+          "href": "https://linkedin.com/in/emmanuel-kouassi"
+        },
+        {
+          "label": {
+            "fr": "🐙 GitHub",
+            "en": "🐙 GitHub"
+          },
+          "href": "https://github.com/emmanuel-kouassi"
+        },
+        {
+          "label": {
+            "fr": "📍 Lomé, Togo",
+            "en": "📍 Lomé, Togo"
+          },
+          "href": null
+        }
+      ]
+    },
+    "copyright": {
+      "fr": "© 2025 Kokou DENYO - Tous droits réservés",
+      "en": "© 2025 Kokou DENYO - All rights reserved"
+    },
+    "availability": {
+      "fr": "Disponible pour nouvelles opportunités",
+      "en": "Available for new opportunities"
+    }
+  },
+  "header": {
+    "menu": {
+      "items": [
+        {
+          "id": "home",
+          "label": {
+            "fr": "Accueil",
+            "en": "Home"
+          },
+          "href": "#home"
+        },
+        {
+          "id": "about",
+          "label": {
+            "fr": "À propos",
+            "en": "About"
+          },
+          "href": "#about"
+        },
+        {
+          "id": "works",
+          "label": {
+            "fr": "Projets",
+            "en": "Works"
+          },
+          "href": "#works"
+        },
+        {
+          "id": "contact",
+          "label": {
+            "fr": "Contact",
+            "en": "Contact"
+          },
+          "href": "#contact"
+        }
+      ]
+    }
+  }
+}
+
