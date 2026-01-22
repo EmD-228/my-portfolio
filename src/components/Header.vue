@@ -25,9 +25,9 @@
         <button
           @click="toggleLanguage"
           class="text-primary-gold hover:text-white transition-colors text-sm font-light tracking-wider focus:outline-none focus:ring-2 focus:ring-primary-gold focus:ring-offset-2 focus:ring-offset-black rounded px-2 py-1 border border-primary-gold/30"
-          :aria-label="currentLanguage === 'fr' ? 'Switch to English' : 'Passer en français'"
+          :aria-label="currentLanguage.value === 'fr' ? 'Switch to English' : 'Passer en français'"
         >
-          {{ currentLanguage === 'fr' ? 'EN' : 'FR' }}
+          {{ currentLanguage.value === 'fr' ? 'EN' : 'FR' }}
         </button>
       </nav>
       
@@ -86,7 +86,7 @@
                 @click="toggleLanguage"
                 class="text-primary-gold hover:text-white transition-colors text-lg block focus:outline-none focus:ring-2 focus:ring-primary-gold focus:ring-offset-2 focus:ring-offset-black rounded px-2 py-1 w-full text-left border-t border-primary-gold/20 pt-4 mt-4"
               >
-                {{ currentLanguage === 'fr' ? '🇬🇧 English' : '🇫🇷 Français' }}
+                {{ currentLanguage.value === 'fr' ? '🇬🇧 English' : '🇫🇷 Français' }}
               </button>
             </li>
           </ul>
@@ -107,7 +107,7 @@
 </template>
 
 <script setup>
-import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 import { usePortfolio } from '../composables/usePortfolio'
 
 const { header, t, toggleLanguage, currentLanguage, initLanguage } = usePortfolio()
