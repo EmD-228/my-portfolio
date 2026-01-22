@@ -8,9 +8,11 @@ export default {
     extend: {
       colors: {
         primary: {
-          gold: '#D4A574',
+          gold: '#DAA442',
           dark: '#0A0A0A',
           darker: '#000000',
+          background: '#141414',
+          gray: '#2A2A2A',
         }
       },
       fontFamily: {
@@ -19,6 +21,6 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [],  
 }
 
