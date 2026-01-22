@@ -1,8 +1,8 @@
 <template>
   <section class="min-h-screen bg-primary-darker pt-20 pb-12 px-6 relative overflow-hidden">
     <div class="relative container mx-auto">
-      <div class="max-w-xl mx-auto bg-red-200 overflow-hidden">
-        <img :src="heroImage" alt="Hero" class="w-full h-auto max-h-96 object-contain rounded-lg border-2 border-primary-gold/30">
+      <div class="max-w-xl mx-auto bg-red-200 ">
+        <img :src="heroImage" alt="Hero" class="w-full max-h-full object-cover rounded-lg border-2 border-primary-gold/30 overflow-hidden">
       </div>
       <div class="absolute top-[20%] right-8 left-8 flex justify-between items-end">
         <h1 class="text-primary-gold font-display text-6xl md:text-10xl lg:text-9xl leading-none whitespace-pre-line">
