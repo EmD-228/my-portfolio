@@ -4,11 +4,21 @@ import portfolioData from '../data/portfolio.json'
 // Shared reactive language state
 const currentLanguage = ref('fr')
 
+// Initialize language from localStorage on module load (only in browser)
+if (typeof window !== 'undefined') {
+  const savedLang = localStorage.getItem('portfolio-language')
+  if (savedLang === 'fr' || savedLang === 'en') {
+    currentLanguage.value = savedLang
+  }
+}
+
 export function usePortfolio() {
   const setLanguage = (lang) => {
     if (lang === 'fr' || lang === 'en') {
       currentLanguage.value = lang
-      localStorage.setItem('portfolio-language', lang)
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('portfolio-language', lang)
+      }
     }
   }
 
@@ -22,9 +32,11 @@ export function usePortfolio() {
 
   // Initialize language from localStorage or default to 'fr'
   const initLanguage = () => {
-    const savedLang = localStorage.getItem('portfolio-language')
-    if (savedLang === 'fr' || savedLang === 'en') {
-      currentLanguage.value = savedLang
+    if (typeof window !== 'undefined') {
+      const savedLang = localStorage.getItem('portfolio-language')
+      if (savedLang === 'fr' || savedLang === 'en') {
+        currentLanguage.value = savedLang
+      }
     }
   }
 

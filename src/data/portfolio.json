@@ -19,7 +19,7 @@
   },
   "hero": {
     "title": {
-      "fr": "Code\nMeets\nDesign",
+      "fr": "Le Code\nRencontre\n Le Designe",
       "en": "Code\nMeets\nDesign"
     },
     "subtitle": {
@@ -27,7 +27,7 @@
       "en": "Mobile App Developer (Flutter) / UI/UX Designer"
     },
     "badges": {
-      "fr": ["Disponible pour opportunités", "Remote | Full-time", "5+ années d'expérience", "Flutter | UI/UX Design"],
+      "fr": ["Disponible pour opportunités", "Télétravail | Temps plein", "5+ années d'expérience", "Flutter | UI/UX Design"],
       "en": ["Open to opportunities", "Remote | Full-time", "5+ years experience", "Flutter | UI/UX Design"]
     }
   },
@@ -199,6 +199,16 @@
         "author": {
           "fr": "EDOMATCH & Autres Projets",
           "en": "EDOMATCH & Other Projects"
+        }
+      },
+      {
+        "quote": {
+          "fr": "Développement du moteur de recommandation IA Smart Swap intégré avec Gemini API",
+          "en": "Development of AI Smart Swap recommendation engine integrated with Gemini API"
+        },
+        "author": {
+          "fr": "Innovation Technique",
+          "en": "Technical Innovation"
         }
       },
       {
