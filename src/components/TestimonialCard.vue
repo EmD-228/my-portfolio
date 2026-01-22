@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-zinc-900 border border-primary-gold/20 rounded-lg p-8 hover:border-primary-gold/50 transition-all">
+  <div class="flex-1 p-8 text-center">
     <blockquote class="text-white text-xl md:text-2xl font-semibold mb-6 leading-relaxed">
       "{{ quote }}"
     </blockquote>

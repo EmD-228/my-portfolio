@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 py-16">
       <!-- Brand Title -->
       <div class="text-center mb-16">
-        <h2 class="text-primary-gold font-display text-6xl md:text-7xl lg:text-8xl leading-none">
+        <h2 class="text-primary-gold font-display text-6xl md:text-7xl lg:text-9xl leading-none">
           {{ t(footer.title) }}
         </h2>
       </div>
@@ -29,7 +29,7 @@
         <div>
           <h3 class="text-primary-gold text-sm font-semibold mb-4">{{ t(footer.skills.title) }}</h3>
           <ul class="space-y-3">
-            <li v-for="(item, index) in footer.skills.items[currentLanguage]" :key="index">
+            <li v-for="(item, index) in (footer.skills?.items?.[currentLanguage.value] || [])" :key="index">
               <span class="text-white text-sm">
                 {{ item }}
               </span>
@@ -71,7 +71,7 @@
 </template>
 
 <script setup>
-import { usePortfolio } from '../composables/usePortfolio'
+import { usePortfolio } from '../composables/usePortfolio';
 
 const { footer, t, currentLanguage } = usePortfolio()
 </script>

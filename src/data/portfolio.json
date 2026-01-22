@@ -10,8 +10,8 @@
       "en": "📍 Lomé, Togo | 🌍 Remote Work"
     },
     "email": "emmanuel.kouassi@email.com",
-    "linkedin": "https://linkedin.com/in/emmanuel-kouassi",
-    "github": "https://github.com/emmanuel-kouassi",
+    "linkedin": "https://linkedin.com/in/kokou-denyo",
+    "github": "https://github.com/EmD-228",
     "experience": {
       "fr": "5+ années d'expérience en développement mobile",
       "en": "5+ years of experience in mobile development"
@@ -19,7 +19,7 @@
   },
   "hero": {
     "title": {
-      "fr": "Code\nMeets\nDesign",
+      "fr": "Le Code\nRencontre\n Le Designe",
       "en": "Code\nMeets\nDesign"
     },
     "subtitle": {
@@ -27,7 +27,7 @@
       "en": "Mobile App Developer (Flutter) / UI/UX Designer"
     },
     "badges": {
-      "fr": ["Disponible pour opportunités", "Remote | Full-time", "5+ années d'expérience", "Flutter | UI/UX Design"],
+      "fr": ["Disponible pour opportunités", "Télétravail | Temps plein", "5+ années d'expérience", "Flutter | UI/UX Design"],
       "en": ["Open to opportunities", "Remote | Full-time", "5+ years experience", "Flutter | UI/UX Design"]
     }
   },
@@ -210,6 +210,16 @@
           "fr": "Innovation Technique",
           "en": "Technical Innovation"
         }
+      },
+      {
+        "quote": {
+          "fr": "Développement du moteur de recommandation IA Smart Swap intégré avec Gemini API",
+          "en": "Development of AI Smart Swap recommendation engine integrated with Gemini API"
+        },
+        "author": {
+          "fr": "Innovation Technique",
+          "en": "Technical Innovation"
+        }
       }
     ],
     "cta": {
@@ -279,21 +289,21 @@
             "fr": "📧 Email",
             "en": "📧 Email"
           },
-          "href": "mailto:emmanuel.kouassi@email.com"
+          "href": "mailto:denyok.emmanuel@gmail.com"
         },
         {
           "label": {
             "fr": "💼 LinkedIn",
             "en": "💼 LinkedIn"
           },
-          "href": "https://linkedin.com/in/emmanuel-kouassi"
+          "href": "https://linkedin.com/in/kokou-denyo"
         },
         {
           "label": {
             "fr": "🐙 GitHub",
             "en": "🐙 GitHub"
           },
-          "href": "https://github.com/emmanuel-kouassi"
+          "href": "https://github.com/EmD-228"
         },
         {
           "label": {
