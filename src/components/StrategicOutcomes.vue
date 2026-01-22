@@ -1,8 +1,8 @@
 <template>
-  <section class="bg-primary-darker py-20 px-6">
-    <div class="container mx-auto max-w-6xl">
-      <div class="mb-12">
-        <h2 class="text-primary-gold font-display text-5xl md:text-6xl lg:text-7xl leading-none">
+  <section class="bg-primary-darker py-20">
+    <div class="container mx-auto">
+      <div class="-mb-3 mx-auto text-center">
+        <h2 class="text-primary-gold font-display text-5xl md:text-6xl lg:text-9xl leading-none">
           {{ t(projects.title) }}
         </h2>
       </div>
@@ -24,8 +24,8 @@
 
 <script setup>
 import { ref } from 'vue'
-import ProjectItem from './ProjectItem.vue'
 import { usePortfolio } from '../composables/usePortfolio'
+import ProjectItem from './ProjectItem.vue'
 
 const { projects, t } = usePortfolio()
 const activeProject = ref(0) // EDOMATCH active by default

@@ -1,31 +1,22 @@
 <template>
-  <div class="bg-zinc-900 border border-primary-gold/20 rounded-lg p-8 hover:border-primary-gold/50 transition-all group">
+  <div class="bg-primary-gray borde p-8 hover:border-primary-gold/50 transition-all group">
     <div class="flex justify-between items-start mb-6">
-      <span class="text-primary-gold/50 text-sm font-mono">{{ stepNumber }}</span>
+      <span class="text-primary-gold text-sm font-bold">{{ stepNumber }}</span>
       <h3 class="text-primary-gold text-2xl md:text-3xl font-bold">{{ title }}</h3>
     </div>
-    
     <div class="flex justify-center my-8">
-      <div class="w-16 h-16 border-2 border-primary-gold/30 rounded-full flex items-center justify-center group-hover:border-primary-gold transition-colors">
-        <svg 
-          xmlns="http://www.w3.org/2000/svg" 
-          class="h-8 w-8 text-primary-gold" 
-          fill="none" 
-          viewBox="0 0 24 24" 
-          stroke="currentColor"
-        >
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-        </svg>
-      </div>
+      <AddIcon class="h-16 w-16" :class="isHovered ? 'text-primary-dark' : 'text-primary-gold'" />
     </div>
     
-    <p class="text-white/60 text-sm text-center leading-relaxed">
-      {{ description }}
-    </p>
+      <p class="text-white text-sm font-normal text-start leading-relaxed col-span-4 indent-[50%] mr-10">
+        {{ description }}
+      </p>
+   
   </div>
 </template>
 
 <script setup>
+import { AddIcon } from '@placetopay/iconsax-vue/outline';
 defineProps({
   stepNumber: {
     type: String,
@@ -38,7 +29,11 @@ defineProps({
   description: {
     type: String,
     required: true
+  },
+  processGridPosition: {
+    type: String,
+    required: true,
+    default: 'md:grid-cols-3'
   }
 })
 </script>
-

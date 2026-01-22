@@ -1,37 +1,30 @@
 <template>
   <section class="bg-primary-darker py-20 px-6">
-    <div class="container mx-auto max-w-6xl">
+    <div class="container mx-auto space-y-8">
       <!-- Header -->
-      <div class="text-center mb-16">
-        <p class="text-primary-gold text-sm mb-4">{{ t(process.subtitle) }}</p>
-        <h2 class="text-white text-4xl md:text-5xl font-bold max-w-3xl mx-auto leading-tight" v-html="tHtml(process.title)"></h2>
+      <p class="text-primary-gold text-sm mb-4 text-end">{{ t(process.subtitle) }}</p>
+      <div class="flex justify-between items-end gap-">
+        <h2
+          class="flex-2 text-start text-white text-4xl md:text-5xl font-bold max-w-3xl mx-auto leading-tight indent-[20%]"
+          v-html="tHtml(process.title)"></h2>
+          <span class="text flex-1 text-white text-sm mb-4 text-start">{{ t(process.footer) }}</span>
+
       </div>
-      
       <!-- Process Cards Grid -->
-      <div class="grid md:grid-cols-2 gap-6 mb-16">
-        <ProcessCard
-          v-for="step in process.steps"
-          :key="step.number"
-          :step-number="step.number"
-          :title="t(step.title)"
-          :description="t(step.description)"
-        />
+     <div >
+      <div class="grid md:grid-cols-3 gap-6 py-16">
+        <div></div>
+        <ProcessCard v-for="step in process.steps" :key="step.number" :step-number="step.number" :title="t(step.title)"
+          :description="t(step.description)" />
       </div>
-      
-      <!-- CTA -->
-      <div class="text-center">
-        <p class="text-white/70 mb-4">
-          {{ t(process.footer) }}
-        </p>
-      </div>
+     </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import ProcessCard from './ProcessCard.vue'
-import { usePortfolio } from '../composables/usePortfolio'
+import { usePortfolio } from '../composables/usePortfolio';
+import ProcessCard from './ProcessCard.vue';
 
 const { process, t, tHtml } = usePortfolio()
 </script>
-
