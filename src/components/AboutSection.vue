@@ -9,19 +9,19 @@
             </div>
           </div> -->
 
-  <section id="about" class="bg-primary-darker py-20 px-6">
+  <section id="about" class="py-20 px-6 ">
 
-    <div class="grid grid-cols-3 justify-between items-start ">
+    <div class="grid grid-cols-1 sm:grid-cols-5 justify-between items-start ">
       <div class="text-primary-gold text-sm font-bold hover:text-white">
         {{
           currentLanguage === 'fr' ? 'À propos' : 'About Me' }}
       </div>
-      <div class="col-span-2 space-y-6">
+      <div class="col-span-4 space-y-6">
         <div>
-          <h2 class="indent-[30%] text-white text-5xl md:text-6xl font-bold" v-html="tHtml(about.title)"></h2>
+          <h2 class="indent-[30%] text-white text-2l sm:text-4xl lg:text-6xl font-bold" v-html="tHtml(about.title)"></h2>
         </div>
-        <div class="flex justify-between items-center gap-24">
-          <p class="text-white leading-relaxed whitespace-pre-line max-w-[60%]">
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-0 sm:gap-24">
+          <p class="text-white leading-relaxed whitespace-pre-line max-w-full sm:max-w-[60%]">
             {{ t(about.description) }}
           </p>
 
@@ -35,7 +35,6 @@
   </section>
 </template>
 <script setup>
-import { AddIcon } from '@placetopay/iconsax-vue/outline';
 import { ref } from 'vue';
 import { usePortfolio } from '../composables/usePortfolio';
 import PrimaryButton from './PrimaryButton.vue';
