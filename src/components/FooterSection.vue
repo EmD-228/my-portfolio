@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black border-t border-primary-gold/20">
+  <footer class=" border-t border-primary-gold/20">
     <div class="container mx-auto px-6 py-16">
       <!-- Brand Title -->
       <div class="text-center mb-16">

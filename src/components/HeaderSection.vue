@@ -1,12 +1,12 @@
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-primary-gold/20">
+  <header class="bg-primary-background fixed top-0 left-0 right-0 z-50 border-b border-primary-gold/20">
     <div class="container mx-auto px-6 py-4 flex justify-between items-center">
       <a 
         href="#home" 
-        class="text-primary-gold font-bold text-xl tracking-wider hover:text-white transition-colors"
+        class="text-primary-gold font-bold text-md sm:text-xl tracking-wider hover:text-white transition-colors"
         @click="closeMenu"
       >
-        K. DENYO 2025
+       BloodFallen
       </a>
       
       <!-- Desktop Navigation - Hidden on mobile, visible on md+ -->
@@ -40,7 +40,7 @@
         aria-controls="mobile-menu"
         class="md:hidden text-primary-gold hover:text-white transition-colors flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-primary-gold focus:ring-offset-2 focus:ring-offset-black rounded"
       >
-        <span class="text-sm font-light tracking-wider">Menu</span>
+       
         <div 
           class="flex flex-col gap-1 transition-transform duration-300"
           :class="{ 'rotate-90': isMenuOpen }"
