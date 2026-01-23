@@ -1,9 +1,9 @@
 <template>
-  <div class="group border-t border-white/50 py-6 px-7 transition-all cursor-pointer"
+  <div class="group border-t border-white/50 py-6 px-4 sm:px-7 transition-all cursor-pointer"
     :class="isHovered  ? 'bg-primary-gold' : 'bg-primary-gray'" @mouseenter="handleHover"
     @mouseleave="handleLeave">
-    <div class="flex items-center justify-between gap-4">
-      <div class="flex items-start gap-4 flex-1">
+    <div class="flex-none sm:flex items-center justify-between gap-4">
+      <div class="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 ">
         <span class="text-sm font-bold transition-colors"
           :class="isHovered   ? 'text-primary-dark' : 'text-primary-gold'">0-0{{ index
           }}</span>
@@ -16,7 +16,7 @@
         </div>
       </div>
 
-      <a href="#" class="border px-4 py-1 flex items-center gap-2 text-sm"
+      <a href="#" class="hidden  border px-4 py-1 sm:flex items-center gap-2 text-sm"
        :class="isHovered   ? 'border-primary-dark' : 'border-primary-gold'">
         <span class="hidden md:inline"
           :class="isHovered   ? 'text-primary-dark' : 'text-primary-gold'">Case
