@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-primary-darker py-20 px-6">
+  <section class="py-20 px-6">
     <div class="container mx-auto">
       <!-- Header -->
       <div class="flex justify-between items-center mb-12">
@@ -15,7 +15,7 @@
       </div>
       
       <!-- Stats Grid -->
-      <div class="grid md:grid-cols-3 gap-6 items-center justify-items-center">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-center justify-items-center ">
         <TestimonialCard
           v-for="(achievement, index) in achievements.items"
           :key="index"
@@ -33,8 +33,8 @@
 
 <script setup>
 import { usePortfolio } from '../composables/usePortfolio';
-import TestimonialCard from './TestimonialCard.vue';
 import PrimaryButton from './PrimaryButton.vue';
+import TestimonialCard from './TestimonialCard.vue';
 
 const { achievements, t } = usePortfolio()
 </script>
