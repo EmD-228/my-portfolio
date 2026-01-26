@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,6 +11,14 @@
   
   * {
     @apply box-border;
+  }
+  
+  .font-display {
+    font-family: 'Bungee', 'Impact', 'Arial Black', sans-serif;
+  }
+  
+  .font-body {
+    font-family: 'Google Sans Flex', 'Arial', sans-serif;
   }
 }
 

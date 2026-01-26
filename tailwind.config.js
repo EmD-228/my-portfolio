@@ -16,8 +16,8 @@ export default {
         }
       },
       fontFamily: {
-        'display': ['Impact', 'Arial Black', 'sans-serif'],
-        'body': ['Arial', 'sans-serif'],
+        'display': ['Bungee', 'Impact', 'Arial Black', 'sans-serif'],
+        'body': ['Google Sans Flex', 'Arial', 'sans-serif'],
       }
     },
   },
