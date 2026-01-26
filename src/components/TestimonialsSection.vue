@@ -9,7 +9,7 @@
       
       <!-- Title -->
       <div class="text-center mb-16">
-        <h2 class="text-primary-gold text-5xl md:text-6xl font-bold">
+        <h2 class="text-primary-gold text-5xl md:text-6xl font-display">
           {{ t(achievements.title) }}
         </h2>
       </div>
