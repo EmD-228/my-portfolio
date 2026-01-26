@@ -5,7 +5,7 @@
       <p class="text-primary-gold text-sm mb-4 text-end">{{ t(process.subtitle) }}</p>
       <div class="flex flex-col lg:flex-row justify-between lg:items-end gap-4 items-stretch">
         <h2
-          class="flex-2 text-start text-white text-2l sm:text-4xl lg:text-6xl  font-bold max-w-3xl mx-auto  indent-[20%]"
+          class="flex-2 text-start text-white text-2l sm:text-4xl lg:text-6xl  font-display max-w-3xl mx-auto  indent-[20%]"
           v-html="tHtml(process.title)"></h2>
         <div class="max-w-sm self-start">
 
