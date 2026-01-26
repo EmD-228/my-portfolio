@@ -18,7 +18,7 @@
       </div>
       <div class="col-span-4 space-y-6">
         <div>
-          <h2 class="indent-[30%] text-white text-2l sm:text-4xl lg:text-6xl font-bold" v-html="tHtml(about.title)"></h2>
+          <h2 class="indent-[30%] text-white text-2l sm:text-4xl lg:text-6xl font-display" v-html="tHtml(about.title)"></h2>
         </div>
         <div class="flex flex-col sm:flex-row justify-between items-center gap-0 sm:gap-24">
           <p class="text-white leading-relaxed whitespace-pre-line max-w-full sm:max-w-[60%]">
