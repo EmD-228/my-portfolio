@@ -18,9 +18,13 @@
     }
   },
   "hero": {
-    "title": {
-      "fr": "Le Code\nRencontre\n Le Designe",
-      "en": "Code\nMeets\nDesign"
+    "when_code_meets": {
+      "fr": "When Code\nMeets",
+      "en": "When Code\nMeets"
+    },
+    "design": {
+      "fr": "Design",
+      "en": "Design"
     },
     "subtitle": {
       "fr": "Mobile App Developer (Flutter) / UI/UX Designer",
