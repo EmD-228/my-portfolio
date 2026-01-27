@@ -6,14 +6,14 @@
           class="w-full max-h-full object-cover rounded-lg  sm:border-2 sm:border-primary-gold/30 overflow-hidden">
       </div>
       <div
-        class="absolute top-[20%] right-4 sm:right-8 left-4 sm:left-8 flex flex-col sm:flex-row justify-between items-start  sm:items-end gap-24 sm:gap-0 ">
+        class="absolute top-[20%] right-4 sm:right-8 left-4 sm:left-8 flex flex-col  sm:flex-row  justify-between items-start  sm:items-end gap-24 sm:gap-0 ">
         <h1
           class="text-primary-gold font-display text-6xl md:text-10xl lg:text-9xl ">
-          When Code <br>Meets
+          {{ t(hero.when_code_meets) }}
         </h1>
         <h1
           class="text-white font-display text-6xl md:text-7xl lg:text-9xl self-end">
-          Design
+          {{ t(hero.design) }}
         </h1>
       </div>
       <div class="invisible sm:visible absolute bottom-16 right-0 left-0 flex justify-between items-end">
